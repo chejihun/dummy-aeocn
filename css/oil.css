@@ -1,0 +1,113 @@
+@charset "utf-8";
+.content {
+    width: 100%;
+    min-width: 1200px;
+    border-top: 1px solid #ccc;
+}
+/* body {background-color: #fff4e0;} */
+
+.oil_cover {
+    width: 1200px;
+    height: 650px;
+    padding-top: 150px;
+    border-bottom: 2px solid #000;
+}
+.oil_cover>div{
+    float: left;
+    width: 550px;
+    height: 580px;
+}
+.oil_cover>div:first-child{
+    margin-right: 50px;
+}
+.oil_text {
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.oil_text>h2 {
+    padding-bottom: 40px;
+    font-family: "S-CoreDream-4Regular","Nanum gothic";
+}
+.oil_text>div {
+    padding-top: 10px;
+    position: relative;
+    width: 510px;
+    height: 160px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+.oil_text>div>p:first-child {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.oil_text>div>p:nth-child(2) {
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.oil_text>div>h4 {
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.oil_text>div>select{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    right: 0px;
+    top: 61px;
+    border:1px solid #ccc;
+}
+.oil_text>div>p:nth-child(5){
+    font-size: 14px;
+    color: #fc2f2f;
+}
+.oil_text>h3 {
+    font-size: 15px;
+    padding:15px 0 70px 0;
+}
+.oil_text>p:nth-child(4){
+    position: absolute;
+    right: 30px;
+    font-size: 15px;
+    top: 282px;
+}
+.oil_text>p:nth-child(5){
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    text-align: center;
+    margin-right:10px;
+}
+.oil_text>p:nth-child(6){
+    display: inline-block;
+    width: 295px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    text-align: center;
+}
+.oil_text>p:nth-child(7){
+    display: inline-block;
+    margin-top: 10px;
+    width: 509px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ///상세페이지 부분 */
+
+.oil_img {
+    padding-top: 50px;
+    width: 1000px;
+    height: 4700px;
+}

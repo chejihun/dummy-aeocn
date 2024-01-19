@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.content {
+    width: 100%;
+    min-width: 1200px;
+    border-top: 1px solid #ccc;
+}
+
+.lf_cover {
+    width: 1100px;
+    height: 500px;
+    position: relative;
+    padding-top: 100px;
+}
+.lf_cover>h2 {
+    font-size: 19px ;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    padding:0 0 20px 20px ;
+    color: #231F20;
+}
+.login_cover {
+    width: 1098px;
+    border:1px solid #ABABAB;
+    height: 300px;
+    padding-top: 45px;
+}
+.login_cover>h3 {
+    text-align: center;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    font-size: 17px ;
+    color: #231F20;
+    padding-bottom: 20px;
+}
+#login_form {
+    width: 365px;
+    height: 80px;
+    position: relative;
+}
+#login_form>input {
+    width: 250px;
+    height: 30px;
+    border:1px solid #ccc;
+    float: left;
+}
+#login_form>input:first-child {
+    margin-bottom: 10px;
+}
+#login_form>input:last-child {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 265px;
+    background-color: #9D9D9D;
+    border-radius: 2px;
+    border: 0px;
+    color: #fff;
+}
+.login_cover>p:nth-child(3) {
+    position: relative;
+    padding-top: 10px;
+    left: 365px;
+    color: #383838;
+    font-size: 13px;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    cursor: pointer;
+}
+.login_cover>p:nth-child(3)>img{
+    width: 18px;
+    margin-right: 5px;
+}
+.login_cover>hr {
+    width: 365px;
+    margin: 40px auto 25px auto;
+    height: 1px;
+    color: #9D9D9D;
+    background-color: #ABABAB;;
+    border:none;
+}
+.login_cover>ul {
+    position: relative;
+    background-color:violet;
+    width: 365px;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+.login_cover>ul>li {
+    float: left;
+    margin-right: 20px;
+    left: 365px;
+}
+.login_cover>ul>li>a{
+    color: #383838;
+    font-size: 13px;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+}
+.login_cover>ul>li>a:after {
+    content:"|";
+    position: relative;
+    left: 10px;
+}
+.login_cover>ul>li:last-child>a:after{
+    content:"";
+    margin-right: 0;
+}

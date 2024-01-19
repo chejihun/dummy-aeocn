@@ -1,0 +1,122 @@
+@charset "utf-8";
+@font-face{
+    font-family: "Century Gothic";
+    src:url("http://www.myfontfree.com/data/200/c/century-gothic/Century Gothic.ttf");
+}
+.slide_cover {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.slide_cover>div{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    height: 500px;
+    background-image: url("../image/library/li_main.jpg");
+    background-size: cover;
+}
+.slide_cover>div>p:first-child {
+    position: absolute;
+    font-family: "Bodoni Bd BT", 'san-serif';
+    font-size: 50px;
+    bottom: 80px;
+    left: 250px;
+    color: #ffffff;
+}
+.slide_cover>div>p:last-child {
+    position: absolute;
+    font-family: "Century Gothic",'san-serif';
+    font-size: 20px;
+    bottom: 63px;
+    left: 250px;
+    color: #ffffff;
+}
+
+/* //라이브러리 영역 */
+
+.library_cover {
+    width: 1200px;
+    height: 1000px;
+    padding-top: 55px;
+    text-align: center;
+}
+.library_cover>h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-family: "poppins", "sanserif";
+    letter-spacing: 1px;
+}
+
+.library_menu{
+    width: 1200px;
+    height: 800px;
+}
+.library_menu>ul>li {
+    float: left;
+    width: 370px;
+    height: 330px;
+    /* background-color: darkgoldenrod; */
+    margin-right: 30px;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+
+.library_menu>ul>li>a>h3{
+    width: 340px;
+    height: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    margin-top: 15px;
+    text-align: left;
+}
+.library_menu>ul>li>a>p:nth-child(3) {
+    text-align: left;
+    width: 340px;
+    height: 38px;
+    overflow:hidden;
+    word-wrap:break-word;
+    text-overflow:ellipsis;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.library_menu>ul>li>a>p:last-child{
+    width: 340px;
+    padding-top:10px;
+    border-top:1px dotted #ccc;
+    font-size: 12px;
+    text-align: left;
+    }
+.library_menu>ul>li>a>p:last-child>time{
+    color:#424242;
+    font-family: "S-CoreDream-4Regular","Nanum gothic";
+    letter-spacing: 1px;
+}
+.li_next {
+    width: 30px;
+    height: 25px;
+    padding: 5px 3px;
+    background-color:#e2e2e2;
+    color:#424242;
+    font-weight: bold;
+    border-bottom: 2px solid #424242;
+}
+.li_next:after {
+    content: "》";
+    position: relative;
+    left:30px;
+    cursor: pointer;
+}
+.li_next:before{
+    content:"《";
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+
+}
+

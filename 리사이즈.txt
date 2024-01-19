@@ -1,0 +1,5 @@
+$(window).resize(function(){
+		ww =  $(window).width();
+		$(".cover, .cover>div").css("width",ww+"px");
+		$(".cover>div").not(":eq(0)").css("left",ww+"px");
+	});

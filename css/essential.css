@@ -1,0 +1,120 @@
+@charset "utf-8";
+@font-face{
+    font-family: "Century Gothic";
+    src:url("http://www.myfontfree.com/data/200/c/century-gothic/Century Gothic.ttf");
+}
+.slide_cover {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.slide_cover>div{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    height: 400px;
+    min-width: 1200px;
+    background-color: royalblue;
+    background-image: url("../image/essential/es_main.jpg");
+    background-size: cover;
+}
+.slide_cover>div>p:first-child {
+    position: absolute;
+    font-family: "Bodoni Bd BT", 'san-serif';
+    font-size: 35px;
+    top: 150px;
+    left: 250px;
+    color: #ffffff;
+}
+.slide_cover>div>p:last-child {
+    position: absolute;
+    font-family: "Century Gothic",'san-serif';
+    font-size: 20px;
+    top:200px;
+    left: 250px;
+    color: #ffffff;
+}
+
+/* // 제품영역 */
+.p_title {
+    width: 1200px;
+    padding-top: 50px;
+}
+
+.menu {
+    width: 1200px;
+    height: 50px;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    box-sizing: border-box;
+    text-align: left;
+}
+.menu>ul>li {
+    float: left; 
+    line-height: 47px; /* 넘치면 아래꺼에서 밀림 */
+    margin-right: 40px;
+}
+/* .menu>ul>li>input {
+    display: none;
+} */
+.menu>ul:after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+/* --------------제품 영역 */
+
+
+.images>li {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 500px;
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+.images>li:hover {
+    background-color: #f1efeb;
+}
+.images>li>a>p:nth-child(2) {
+    font-size: 14px;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    color: #555555;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.images>li>a>p:nth-child(3) {
+    font-size: 13px;
+    color: #555555;
+    padding-bottom: 3px;
+}
+.images>li>a>p:nth-child(4) {
+    font-size: 14px;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    color: #505050;
+}
+
+
+.plus{
+    text-align: center;
+    background-color: darkblue;
+}
+.images:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* .plus>button{
+    width: 140px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.plus>button:hover {
+    background-color: #bbbbbb;
+    color: #fff;
+} */

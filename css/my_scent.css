@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+.content {
+    width: 100%;
+    min-width: 1200px;
+    border-top: 1px solid #ccc;
+}
+
+.scent_cover {
+    width: 1200px;
+    height: 1770px;
+    position: relative;
+    padding-top: 100px;
+}
+.care_cover {
+    width:1200px;
+    height: 1100px;
+    position: relative;
+    /* background-color: lightgoldenrodyellow; */
+}
+.care_cover>ul>li{
+    width: 398px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 2px;    
+    background-color: #dadada;
+    float: left;
+    text-align: center;
+}
+.care_cover>ul>li>a {
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    font: 20px;
+    letter-spacing: 2px;
+    color: #8f8f8f;
+}
+.ct_cover {
+    margin:0 auto;
+    width: 1200px;
+    height: 380px;
+    padding-top: 80px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.ct_cover>div:first-child{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding: 30px 50px 0 30px;
+    box-sizing: border-box;
+}
+.ct_cover>div:first-child>h3 {
+    text-align: left;
+    font-size: 25px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    color: #363636;
+    font-family: "poppins","sanserif";
+}
+.ct_cover>div:first-child>p {
+    text-align: left;
+    line-height: 1.5em;
+    height: 80px;
+    font-size: 15px;
+    padding-bottom:20px;
+}
+.ct_cover>div:first-child>ul>li{
+    float: left;
+    line-height: 40px;
+    margin: 20px 20px 0 0;
+    width: 110px;
+    height: 40px;
+    font-size: 13px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+.ct_cover>div:last-child{
+    float: left;
+    width: 580px;
+    height: 300px;
+}
+
+
+/* //오일 영역 */
+.co_cover{
+    width:1200px;
+    height: 1000px;
+    position: relative;
+    padding-top:70px;
+}
+.co_cover>h2 {
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.images {
+    width: 1200px;
+    text-align: center;
+    color: #fff;
+}
+.images>li {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 500px;
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+.images>li:hover {
+    background-color: #f1efeb;
+}
+.images>li>a>p:nth-child(2) {
+    font-size: 14px;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    color: #555555;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.images>li>a>p:nth-child(3) {
+    font-size: 13px;
+    color: #555555;
+    padding-bottom: 3px;
+}
+.images>li>a>p:nth-child(4) {
+    font-size: 14px;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    color: #505050;
+}
+
+
+.hovertab {
+    display: inline-block;
+    width: 398px;
+    height: 45px;
+    background-color: #8d8d8d !important;
+    color: #fff !important;
+}
+
+
+.care1, .care2, .care3 {
+    width: 1200px;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+    /* top: 100px; */
+}
+.care2, .care3{
+    display: none;
+    left: 0px;

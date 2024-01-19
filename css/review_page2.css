@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.content {
+    width: 100%;
+    min-width: 1200px;
+    border-top: 1px solid #ccc;
+}
+.np_title {
+    width: 860px;
+    height: 150px;
+    padding-top: 50px;
+    /* background-color: aqua; */
+}
+.np_title>p{
+    font-size: 13px;
+    color: #656565;
+    text-align: right;
+    padding-bottom: 50px;
+}
+.np_title>div{
+    width: 860px;
+    height: 81px;
+    background-color: blanchedalmond; 
+    position: relative;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+.np_title>div>h4 {
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #dbdbdb;
+    text-align: center;
+    font-size: 14px;
+}
+.np_title>div>h4:first-child{
+    border-bottom: 1px solid rgb(121, 121, 121);
+}
+.np_title>div>p:nth-child(2){
+    border-bottom: 1px solid rgb(121, 121, 121);
+}
+.np_title>div>p {
+    float: left;
+    width: 680px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.np_title1 {
+    width: 860px;
+    height: 300px;
+    padding-top: 40px;
+}
+
+.np_title1>p{
+    font-size: 15px;
+}
+.np_title1>p:nth-child(2) {
+    padding-top: 30px;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.np_title1>a>button {
+    width: 60px;
+    height: 30px;
+    border: 0px;
+    background-color: #656565;
+    color: #fff;
+}

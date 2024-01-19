@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+.content {
+    width: 100%;
+    min-width: 1200px;
+    border-top: 1px solid #ccc;
+}
+
+.event_cover {
+    width: 1200px;
+    height: 1100px;
+    position: relative;
+    padding-top: 100px;
+}
+.event_cover>h2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-family: "poppins", "sanserif";
+    letter-spacing: 1px;
+}
+
+.ev_cover {
+    width:1200px;
+    height: 900px;
+    float: left;
+    position: relative;
+}
+.ev_cover>div{
+    width: 1200px;
+    height: 10px;
+    
+    border-bottom: 2px solid #424242;
+    position: absolute;
+    top:40px;
+}
+.ev_cover>ul {position: relative;}
+
+.ev_cover>ul>li {float: left;}
+
+.ev_cover>ul>li>a {
+    margin: 0;
+    display: block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 0px;
+    z-index: 50;
+    color: #ccc;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ev_cover>ul>li>a:hover {
+    color: #ffffff;
+    background-color: #424242;
+}
+ .ev_cover>ul>li:last-child>a{left: 5px; }
+
+.hovertab {
+    background-color: #ffffff !important;
+    color: #222328 !important;
+}
+
+.event_on, .event_off {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 100px;
+}
+.event_off {
+    display: none;
+    left: 0px;
+}
+.event_on>li, .event_off>li {
+    float: left;
+    width: 400px;
+    height: 380px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+/* -------- 이미지 아래부터 */
+.event_on>li>a>h3, .event_off>li>a>h3{
+    font-size: 17px;
+    font-family: "S-CoreDream-4Regular","Nanum gothic";
+    padding-top: 10px ; 
+}
+.event_on>li>a>p, .event_off>li>a>p {
+    width: 350px;
+    height:40px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10px;
+    overflow:hidden;
+    word-wrap:break-word;
+    text-overflow:ellipsis;
+    font-size: 15px;
+}
+.event_on>li>a>p:last-child,.event_off>li>a>p:last-child {
+    border-top:1px dotted #ccc;
+    padding-top: 10px;}
+
+.event_on>li>a>p:last-child, .event_off>li>a>p:last-child{
+    color:#424242;
+    font-family: "S-CoreDream-5Medium","Nanum gothic";
+    letter-spacing: 1px;
+}
